@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}
+.navbar{
+    height: 80px;
+}
+
+.container {
+    max-width: 1248px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-items{
+    display: flex;
+    align-items: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name-details{
+    font-size: 68px;
+    color: #14242b;
+}
+
+.nav-list-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.hero-logo{    
+    width: 500px;
+    top: -13px;
+    position: relative;
+    z-index: -1;
+}
+
+.hero-btn{
+    padding: 24px 60px;
+    border-style: none;
+    border-radius: 80px;
+    background-color: #14242b;
+    color: #ffffffff;
+    font-weight: bold;
+}
+
+.hero-btn:hover{
+    background-color: #ffffffff;
+    color: #14242b;
+    box-shadow: 0 50px 50px rgb(0 0 0 / 4%), 0 6px 22px rgb(0 0 0 / 4%);
+}
+
+.list-items{
+    margin: 20px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
+
+.email-logo{
+    margin-right: 6px;
+}
+
+.hero{
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.name{
+    color: #4e4b66;
+}
+
+.myImage{
+    height: 631px;
+    width: 500px;
+}
+
+.hero-picture{
+    border-radius: 15px;
+}

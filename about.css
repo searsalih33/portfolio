@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.container {
+    max-width: 1248px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-items {
+    margin: 20px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email-logo {
+    margin-right: 6px;
+}
+
+.hero-picture {
+    border-radius: 100px;
+    width: 552px;
+    height: 700px;
+    background: url('') #4e4b66 center no-repeat;
+    margin-right: 50px;
+}
+
+.hero {
+    margin-top: 70px;
+}
+
+.hero-items {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text{
+    flex-wrap: wrap;
+}
+
+.myname {
+    font-size: 68px;
+    color: #14242b;
+}
+
+.hero-text-underline {
+    width: 550px;
+    top: -10px;
+    position: relative;
+    z-index: -1;
+}
+
+.my-details {
+    color: #777990;
+    font-size: 18px;
+    line-height: 1.777em;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.middle {
+    margin: 100px auto;
+}
+
+.skills-softwere,
+.skills-softwere-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-logo {
+    width: 250px;
+}
+
+.softwere {
+    display: flex;
+    justify-content: space-between;
+}
+
+.softwere-items {
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-designe{
+    border-right: solid 1px #d9dbe9;
+}
+
+.Tools{
+    border-left: #d9dbe9 solid 1px;
+}
+
+.web-p{
+    color: #d9dbe9;
+}
+
+.web-image{
+    border-radius: 15px;
+}
+
+.footer{
+    height: 150px;
+    margin-top: 100px;
+    border-top: #d9dbe9 solid 1px;
+    padding: 80px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insta{
+    margin: 20px;
+}
